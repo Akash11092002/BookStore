@@ -18,7 +18,7 @@ const Register = () => {
   async function handleSubmit(e) {
     e.preventDefault();
     
-      const response = await fetch('http://localhost:8091/registrationHandler', { 
+      const response = await fetch('https://bookstore-backend-xj98.onrender.com/registrationHandler', { 
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
