@@ -12,7 +12,7 @@ const Admin = () => {
 
   const handleAddBook = async () => {
     try {
-      const response = await fetch('http://localhost:8091/addbookhandler', {
+      const response = await fetch('https://bookstore-backend-xj98.onrender.com/addbookhandler', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
