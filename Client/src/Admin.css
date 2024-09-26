@@ -1,0 +1,100 @@
+/* Admin.css */
+.admin{
+  background-image: url('https://img.freepik.com/free-psd/interior-room-with-shelves-decoration_176382-526.jpg?t=st=1715516210~exp=1715519810~hmac=f89fb8c08ab15dfba87dccb29c0f7ae19fba35449e7da59d667648667ff32648&w=900');
+   height: 100vh;
+}
+
+.hero1 {
+    background-color:white;
+    
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 20px;
+  }
+  
+  .admin-title {
+    color: #333;
+    text-align: center;
+  }
+  
+  .admin-form {
+    margin-bottom: 50px;
+    
+  }
+  
+  .admin-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .admin-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .admin-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .book-list {
+    margin-top: 20px;
+  }
+  
+  .book-list-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .book-list-item span {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  /* Admin.css */
+/* Admin.css */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  

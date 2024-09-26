@@ -1,0 +1,21 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to next line if there are more than 4 cards */
+    gap: 16px; /* Space between the cards */
+    justify-content: space-between; /* Distribute the space evenly between cards */
+  }
+  
+  .media-card {
+    flex: 1 1 calc(25% - 16px); /* 4 cards in a row, accounting for gaps */
+    max-width: 345px; /* Ensure the cards don't exceed this width */
+    box-sizing: border-box; /* Include padding and border in the card size */
+    margin-bottom: 16px; /* Add spacing between rows */
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .media-card:hover {
+    transform: scale(1.05); /* A hover effect to make the card pop */
+  }
+  

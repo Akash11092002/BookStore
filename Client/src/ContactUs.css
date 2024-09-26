@@ -1,0 +1,62 @@
+/* ContactUs.css */
+
+.contact{
+  background-image: url('https://img.freepik.com/free-photo/stack-books-with-library-scene_91128-4327.jpg?t=st=1715447466~exp=1715451066~hmac=b5f0a8c4c08d21ef972b01b2414837b54a4ceeb132debc6c988ff345d77f44d0&w=1380'); /* Replace 'your-background-image.jpg' with the path to your background image */
+  background-size:cover; /* Cover the entire container */
+  background-position:top; /* Center the background image */
+  background-repeat: no-repeat;
+  
+  height: 100vh;
+}
+.contacting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.contact-us {
+  
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Set the background color for the form container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for a more elevated look */
+  height: 450px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

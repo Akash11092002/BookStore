@@ -1,0 +1,47 @@
+.position-relative {
+    position: relative;
+    height: 100vh; /* Ensure the div takes up the full height of the viewport */
+    overflow: hidden; /* Hide overflow if necessary */
+  }
+  
+  .img-fluid {
+    position: absolute; /* Position absolutely to the parent div */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the image cover the full width */
+    height: 100%; /* Make the image cover the full height */
+    object-fit: cover; /* Ensure the image maintains its aspect ratio */
+    z-index: -1; /* Place the image behind the text */
+  }
+  
+  .welcome-heading {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .explore-text {
+    font-family: serif;
+    font-size: 30px;
+    margin: 0 20px; /* Adjust margin as needed */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent; /* Make button background transparent */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Add some border-radius */
+    transition: background-color 0.3s, color 0.3s; /* Add transition for hover effect */
+  }
+  
+  .btn:hover {
+    background-color: white; /* Change background on hover */
+    color: black; /* Change text color on hover */
+  }
+  

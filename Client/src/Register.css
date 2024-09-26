@@ -1,0 +1,39 @@
+.register-box {
+  background-image: url('https://cdn.pixabay.com/photo/2022/11/08/07/53/generated-7577945_1280.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
+  background-size:cover; /* Cover the entire container */
+  background-position:initial; /* Center the background image */
+  background-repeat: no-repeat; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ /* Set the background color for the entire page */
+
+}
+  
+  .register-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* Set the background color for the form container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for a more elevated look */
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    width: 100%;
+  }
+  

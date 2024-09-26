@@ -1,0 +1,60 @@
+.dashboard {
+  font-family: 'Arial', sans-serif;
+  background-color: #282c34;
+  color: white;
+  min-height: 200vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: white;
+}
+
+.navbar-links a {
+  margin-left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.books-header {
+  color: #282c34;
+  background-color: wheat;
+ 
+  font-family: sans-serif;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.books-line {
+  display: flex;
+  flex-wrap: wrap;
+  
+  padding: 2rem;
+  gap: 16px;
+}
+
+.loading-message {
+  
+  color: white;
+  font-size: 1.2rem;
+}

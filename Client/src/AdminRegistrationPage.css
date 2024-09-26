@@ -1,0 +1,54 @@
+.total{
+    
+        background-image: url('https://img.freepik.com/free-photo/stack-books-with-library-scene_91128-4327.jpg?t=st=1715447466~exp=1715451066~hmac=b5f0a8c4c08d21ef972b01b2414837b54a4ceeb132debc6c988ff345d77f44d0&w=1380'); /* Replace 'your-background-image.jpg' with the path to your background image */
+        background-size:cover; /* Cover the entire container */
+        background-position:initial; /* Center the background image */
+        background-repeat: no-repeat; 
+        height: 100vh;
+       
+}
+
+
+.container12 {
+
+    max-width: 600px;
+    height:600px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 3px solid #f4d9d9;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+
+    background-color: #d880c2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .errorMessage {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

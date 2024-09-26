@@ -1,0 +1,199 @@
+/* General styling */
+.categories {
+  padding: 20px;
+  background-color: #e4c2c2; /* Light background for contrast */
+  border: 2px solid #18191a; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  margin-bottom: 20px; /* Spacing below the container */
+}
+
+.categories h2 {
+  text-align: center; /* Center the title */
+  color: #333; /* Title color */
+}
+
+.error {
+  color: red; /* Red color for error messages */
+  text-align: center; /* Center align error messages */
+}
+
+.category-list {
+  list-style-type: decimal; /* Use decimal numbers for the list */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.category-item {
+  margin: 10px 0; /* Margin for spacing between items */
+}
+
+.category-button {
+  padding: 10px 15px; /* Button padding */
+  border: 2px solid #070808; /* Border to match the container */
+  background-color: white; /* White background for buttons */
+  color: #007bff; /* Text color matching the theme */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+  width: 100%; /* Make the button full width */
+  text-align: left; /* Align text to the left */
+}
+
+.category-button:hover {
+  background-color: #007bff; /* Background change on hover */
+  color: white; /* Change text color on hover */
+}
+
+.category-button:focus {
+  outline: none; /* Remove focus outline */
+}
+.author {
+  padding: 20px;
+  background-color: #f0d3d3; /* Light background for contrast */
+  border: 2px solid #0e0f10; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  margin-bottom: 20px; /* Spacing below the container */
+}
+
+.author h2 {
+  text-align: center; /* Center the title */
+  color: #333; /* Title color */
+}
+
+.error {
+  color: red; /* Red color for error messages */
+  text-align: center; /* Center align error messages */
+}
+
+.author-list {
+  list-style-type: decimal; /* Use decimal numbers for the list */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.author-item {
+  margin: 10px 0; /* Margin for spacing between items */
+}
+
+.author-button {
+  padding: 10px 15px; /* Button padding */
+  border: 2px solid #91a8c2; /* Border to match the container */
+  background-color: white; /* White background for buttons */
+  color: #e4eac6; /* Text color matching the theme */
+  border-radius: 5px; /* Rounded corners for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+  width: 100%; /* Make the button full width */
+  text-align: left; /* Align text to the left */
+}
+
+.author-button:hover {
+  background-color: #8ca2b9; /* Background change on hover */
+  color: white; /* Change text color on hover */
+}
+
+.author-button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #dba5a5;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 20px auto;
+  
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-image {
+  flex: 1;
+}
+
+
+
+.right-content {
+  flex: 2;
+  padding-left: 20px;
+}
+
+.right-content h2 {
+  text-align: right;
+  color: #333;
+  font-size: 2rem;
+}
+
+.right-content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: right;
+  text-align: right;
+}
+
+.right-content li {
+  text-align: right;
+}
+
+/* Button styling for categories and authors */
+.right-content li button {
+  background-color: #53115b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.right-content li button:hover {
+  background-color: #647e65;
+  transform: translateY(-3px);
+}
+
+.right-content li button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(72, 202, 228, 0.5);
+}
+
+/* Error message styling */
+p {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .right-content ul {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .right-content {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+
