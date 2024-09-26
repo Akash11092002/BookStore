@@ -12,7 +12,7 @@ const Login = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:8091/loginHandler', {
+            const response = await fetch('https://bookstore-backend-xj98.onrender.com/loginHandler', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
