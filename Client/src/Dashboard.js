@@ -12,7 +12,7 @@ const Dashboard = () => {
   
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:8091/books'); // Replace with your API endpoint
+      const response = await fetch('https://bookstore-backend-xj98.onrender.com/books'); // Replace with your API endpoint
       if (!response.ok) {
         console.error('Error in fetching books');
         return;
