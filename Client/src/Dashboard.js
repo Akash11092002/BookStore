@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
 import Cards from './Cards';
 import './Dashboard.css'; // Import your custom CSS file for styling
 
@@ -31,9 +31,9 @@ const Dashboard = () => {
       <nav className="navbar">
         <div className="navbar-brand">Dashboard</div>
         <div className="navbar-links">
-          <a href="#">Profile</a>
-          <a href="/home">Logout</a>
-          <a href="">Categories</a>
+            <Link to="#">Profile</Link> {/* If this link doesn't navigate anywhere, consider using a button instead */}
+            <Link to="/login">Logout</Link>
+            <Link to="/home">Categories</Link> {/* Replace empty string with the appropriate route */}
         </div>
       </nav>
 
