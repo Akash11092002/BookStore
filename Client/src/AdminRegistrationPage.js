@@ -11,7 +11,7 @@ const AdminRegistrationPage = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://bookstore-backend-xj98.onrender.com/registeradminHandler', {
+      const response = await fetch('https://bookstore-backend-boit.onrender.com/registeradminHandler', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
