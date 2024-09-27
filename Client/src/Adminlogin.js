@@ -11,7 +11,7 @@ const Adminlogin = () => {
         e.preventDefault();
 
         try {
-            const response = await fetch('https://bookstore-backend-xj98.onrender.com/adminHandler', {
+            const response = await fetch('https://bookstore-backend-boit.onrender.com/adminHandler', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
