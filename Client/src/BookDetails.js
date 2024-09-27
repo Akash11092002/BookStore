@@ -11,7 +11,7 @@ const BookDetails = () => {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const response = await fetch(`https://bookstore-backend-xj98.onrender.com/books/author/${encodeURIComponent(authorName)}`); // Fetch books by author
+        const response = await fetch(`https://bookstore-backend-boit.onrender.com/books/author/${encodeURIComponent(authorName)}`); // Fetch books by author
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
