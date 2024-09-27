@@ -98,7 +98,7 @@ const Register = () => {
 
 
       </form>
-      <p>Already Registered?<a href="/login">Login</a></p>
+      <p>Already Registered?  <Link to="/login">Login</Link></p>
     </div>
     </div>
     </div>
