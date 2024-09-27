@@ -9,7 +9,7 @@ function Userinfo() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('https://bookstore-backend-xj98.onrender.com/users');
+      const response = await fetch('https://bookstore-backend-boit.onrender.com/users');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
