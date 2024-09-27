@@ -12,7 +12,7 @@ const Home = () => {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await fetch('https://bookstore-backend-xj98.onrender.com/books/categories');
+        const response = await fetch('https://bookstore-backend-boit.onrender.com/books/categories');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -29,7 +29,7 @@ const Home = () => {
   useEffect(() => {
     const fetchAuthors = async () => {
       try {
-        const response = await fetch('https://bookstore-backend-xj98.onrender.com/books/authors'); 
+        const response = await fetch('https://bookstore-backend-boit.onrender.com/books/authors'); 
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
