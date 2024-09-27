@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import './Login.css'; // Import the CSS file for additional styling
 
 const Login = () => {
@@ -70,7 +70,7 @@ const Login = () => {
                     Submit
                 </button>
             </form>
-            <p style={{padding:'32px',marginLeft:'62px'}}> New User?<a href='/registration'> Signup</a></p>
+            <p style={{padding:'32px',marginLeft:'62px'}}> New User? <Link to="/registration">Signup</Link></p>
         </div>
         </div>
     );
